@@ -2,26 +2,12 @@
 
 namespace Tests\Feature;
 
-<<<<<<< HEAD
-// use Illuminate\Foundation\Testing\RefreshDatabase;
-=======
 use App\Models\MataKuliah;
 use App\Models\User;
->>>>>>> 9bd941d (Commit Setup CeLOE LMS)
 use Tests\TestCase;
 
 class ExampleTest extends TestCase
 {
-<<<<<<< HEAD
-    /**
-     * A basic test example.
-     */
-    public function test_the_application_returns_a_successful_response(): void
-    {
-        $response = $this->get('/login');
-
-        $response->assertStatus(200);
-=======
     public function test_unauthenticated_user_redirects_to_login(): void
     {
         $response = $this->get('/');
@@ -117,6 +103,5 @@ class ExampleTest extends TestCase
         } else {
             $this->assertTrue(true);
         }
->>>>>>> 9bd941d (Commit Setup CeLOE LMS)
     }
 }

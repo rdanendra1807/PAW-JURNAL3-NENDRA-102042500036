@@ -2,24 +2,14 @@
 
 namespace App\Models;
 
-<<<<<<< HEAD
-// use Illuminate\Contracts\Auth\MustVerifyEmail;
-use Database\Factories\UserFactory;
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-=======
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
->>>>>>> 9bd941d (Commit Setup CeLOE LMS)
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
 class User extends Authenticatable
 {
-<<<<<<< HEAD
-    /** @use HasFactory<UserFactory> */
-=======
->>>>>>> 9bd941d (Commit Setup CeLOE LMS)
     use HasFactory, Notifiable;
 
     /**
@@ -32,10 +22,7 @@ class User extends Authenticatable
         'email',
         'password',
         'role',
-<<<<<<< HEAD
-=======
         'nomor_induk',
->>>>>>> 9bd941d (Commit Setup CeLOE LMS)
     ];
 
     /**
@@ -60,8 +47,6 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
-<<<<<<< HEAD
-=======
 
     public function isAdmin(): bool
     {
@@ -115,5 +100,4 @@ class User extends Authenticatable
     {
         return $this->hasMany(Submission::class);
     }
->>>>>>> 9bd941d (Commit Setup CeLOE LMS)
 }

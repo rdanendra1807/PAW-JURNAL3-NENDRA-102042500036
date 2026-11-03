@@ -2,17 +2,6 @@
 
 namespace App\Http\Controllers;
 
-<<<<<<< HEAD
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
-
-class AuthController extends Controller
-{
-    /**
-     * Tampilkan form login.
-     */
-    public function showLoginForm()
-=======
 use App\Models\User;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
@@ -23,7 +12,6 @@ use Illuminate\View\View;
 class AuthController extends Controller
 {
     public function showLoginForm(): View|RedirectResponse
->>>>>>> 9bd941d (Commit Setup CeLOE LMS)
     {
         if (Auth::check()) {
             return redirect()->route('dashboard');
@@ -32,38 +20,6 @@ class AuthController extends Controller
         return view('auth.login');
     }
 
-<<<<<<< HEAD
-    /**
-     * Proses autentikasi user.
-     */
-    public function login(Request $request)
-    {
-        $credentials = $request->validate([
-            'email' => ['required', 'email'],
-            'password' => ['required'],
-        ], [
-            'email.required' => 'Email wajib diisi.',
-            'email.email' => 'Format email tidak valid.',
-            'password.required' => 'Password wajib diisi.',
-        ]);
-
-        if (Auth::attempt($credentials)) {
-            $request->session()->regenerate();
-
-            return redirect()->intended(route('dashboard'))
-                ->with('success', 'Selamat datang, ' . Auth::user()->name . '!');
-        }
-
-        return back()->withErrors([
-            'email' => 'Email atau password yang Anda masukkan salah.',
-        ])->onlyInput('email');
-    }
-
-    /**
-     * Logout user dari sistem.
-     */
-    public function logout(Request $request)
-=======
     public function showRegisterForm(): View|RedirectResponse
     {
         if (Auth::check()) {
@@ -132,18 +88,12 @@ class AuthController extends Controller
     }
 
     public function logout(Request $request): RedirectResponse
->>>>>>> 9bd941d (Commit Setup CeLOE LMS)
     {
         Auth::logout();
 
         $request->session()->invalidate();
         $request->session()->regenerateToken();
 
-<<<<<<< HEAD
-        return redirect()->route('login')
-            ->with('success', 'Anda telah berhasil logout.');
-=======
         return redirect()->route('login')->with('success', 'Anda telah berhasil keluar dari CeLOE LMS.');
->>>>>>> 9bd941d (Commit Setup CeLOE LMS)
     }
 }

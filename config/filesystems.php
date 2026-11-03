@@ -41,11 +41,7 @@ return [
         'public' => [
             'driver' => 'local',
             'root' => storage_path('app/public'),
-<<<<<<< HEAD
-            'url' => rtrim(env('APP_URL', 'http://localhost'), '/').'/storage',
-=======
             'url' => env('APP_URL').'/storage',
->>>>>>> 9bd941d (Commit Setup CeLOE LMS)
             'visibility' => 'public',
             'throw' => false,
             'report' => false,

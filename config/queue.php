@@ -24,12 +24,7 @@ return [
     | used by your application. An example configuration is provided for
     | each backend supported by Laravel. You're also free to add more.
     |
-<<<<<<< HEAD
-    | Drivers: "sync", "database", "beanstalkd", "sqs", "redis",
-    |          "deferred", "background", "failover", "null"
-=======
     | Drivers: "sync", "database", "beanstalkd", "sqs", "redis", "null"
->>>>>>> 9bd941d (Commit Setup CeLOE LMS)
     |
     */
 
@@ -77,25 +72,6 @@ return [
             'after_commit' => false,
         ],
 
-<<<<<<< HEAD
-        'deferred' => [
-            'driver' => 'deferred',
-        ],
-
-        'background' => [
-            'driver' => 'background',
-        ],
-
-        'failover' => [
-            'driver' => 'failover',
-            'connections' => [
-                'database',
-                'deferred',
-            ],
-        ],
-
-=======
->>>>>>> 9bd941d (Commit Setup CeLOE LMS)
     ],
 
     /*

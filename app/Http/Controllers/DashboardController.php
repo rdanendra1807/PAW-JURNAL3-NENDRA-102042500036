@@ -2,36 +2,6 @@
 
 namespace App\Http\Controllers;
 
-<<<<<<< HEAD
-use App\Models\Anggota;
-use App\Models\Buku;
-use App\Models\Peminjaman;
-
-class DashboardController extends Controller
-{
-    /**
-     * Tampilkan halaman dashboard utama.
-     */
-    public function index()
-    {
-        $totalBuku = Buku::count();
-        $totalAnggota = Anggota::count();
-        $totalPeminjamanAktif = Peminjaman::where('status', 'Dipinjam')->count();
-        $totalPeminjamanSelesai = Peminjaman::where('status', 'Dikembalikan')->count();
-
-        $peminjamanTerbaru = Peminjaman::with(['anggota', 'buku'])
-            ->latest()
-            ->take(5)
-            ->get();
-
-        return view('dashboard', compact(
-            'totalBuku',
-            'totalAnggota',
-            'totalPeminjamanAktif',
-            'totalPeminjamanSelesai',
-            'peminjamanTerbaru'
-        ));
-=======
 use App\Models\Assignment;
 use App\Models\MataKuliah;
 use App\Models\Material;
@@ -132,6 +102,5 @@ class DashboardController extends Controller
         ];
 
         return view('dashboard', compact('stats', 'courses', 'upcomingAssignments', 'announcements'));
->>>>>>> 9bd941d (Commit Setup CeLOE LMS)
     }
 }

@@ -10,12 +10,4 @@ export default defineConfig({
         }),
         tailwindcss(),
     ],
-<<<<<<< HEAD
-    server: {
-        watch: {
-            ignored: ['**/storage/framework/views/**'],
-        },
-    },
-=======
->>>>>>> 9bd941d (Commit Setup CeLOE LMS)
 });

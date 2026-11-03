@@ -27,12 +27,7 @@ return [
     | same cache driver to group types of items stored in your caches.
     |
     | Supported drivers: "array", "database", "file", "memcached",
-<<<<<<< HEAD
-    |                    "redis", "dynamodb", "octane",
-    |                    "failover", "null"
-=======
     |                    "redis", "dynamodb", "octane", "null"
->>>>>>> 9bd941d (Commit Setup CeLOE LMS)
     |
     */
 
@@ -95,17 +90,6 @@ return [
             'driver' => 'octane',
         ],
 
-<<<<<<< HEAD
-        'failover' => [
-            'driver' => 'failover',
-            'stores' => [
-                'database',
-                'array',
-            ],
-        ],
-
-=======
->>>>>>> 9bd941d (Commit Setup CeLOE LMS)
     ],
 
     /*
@@ -119,10 +103,6 @@ return [
     |
     */
 
-<<<<<<< HEAD
-    'prefix' => env('CACHE_PREFIX', Str::slug((string) env('APP_NAME', 'laravel')).'-cache-'),
-=======
     'prefix' => env('CACHE_PREFIX', Str::slug(env('APP_NAME', 'laravel'), '_').'_cache_'),
->>>>>>> 9bd941d (Commit Setup CeLOE LMS)
 
 ];

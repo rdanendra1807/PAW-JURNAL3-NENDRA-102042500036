@@ -46,11 +46,7 @@ return [
             'username' => env('MAIL_USERNAME'),
             'password' => env('MAIL_PASSWORD'),
             'timeout' => null,
-<<<<<<< HEAD
-            'local_domain' => env('MAIL_EHLO_DOMAIN', parse_url((string) env('APP_URL', 'http://localhost'), PHP_URL_HOST)),
-=======
             'local_domain' => env('MAIL_EHLO_DOMAIN', parse_url(env('APP_URL', 'http://localhost'), PHP_URL_HOST)),
->>>>>>> 9bd941d (Commit Setup CeLOE LMS)
         ],
 
         'ses' => [
@@ -89,10 +85,6 @@ return [
                 'smtp',
                 'log',
             ],
-<<<<<<< HEAD
-            'retry_after' => 60,
-=======
->>>>>>> 9bd941d (Commit Setup CeLOE LMS)
         ],
 
         'roundrobin' => [
@@ -101,10 +93,6 @@ return [
                 'ses',
                 'postmark',
             ],
-<<<<<<< HEAD
-            'retry_after' => 60,
-=======
->>>>>>> 9bd941d (Commit Setup CeLOE LMS)
         ],
 
     ],
@@ -122,11 +110,7 @@ return [
 
     'from' => [
         'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
-<<<<<<< HEAD
-        'name' => env('MAIL_FROM_NAME', env('APP_NAME', 'Laravel')),
-=======
         'name' => env('MAIL_FROM_NAME', 'Example'),
->>>>>>> 9bd941d (Commit Setup CeLOE LMS)
     ],
 
 ];
