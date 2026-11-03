@@ -6,9 +6,13 @@ use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
 {
+<<<<<<< HEAD
     /**
      * Run the migrations.
      */
+=======
+
+>>>>>>> 9bd941d (Commit Setup CeLOE LMS)
     public function up(): void
     {
         Schema::create('jobs', function (Blueprint $table) {
@@ -45,9 +49,12 @@ return new class extends Migration
         });
     }
 
+<<<<<<< HEAD
     /**
      * Reverse the migrations.
      */
+=======
+>>>>>>> 9bd941d (Commit Setup CeLOE LMS)
     public function down(): void
     {
         Schema::dropIfExists('jobs');

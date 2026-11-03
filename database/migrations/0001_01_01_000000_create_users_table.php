@@ -6,18 +6,27 @@ use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
 {
+<<<<<<< HEAD
     /**
      * Run the migrations.
      */
+=======
+>>>>>>> 9bd941d (Commit Setup CeLOE LMS)
     public function up(): void
     {
         Schema::create('users', function (Blueprint $table) {
             $table->id();
             $table->string('name');
             $table->string('email')->unique();
+<<<<<<< HEAD
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->enum('role', ['admin'])->default('admin');
+=======
+            $table->string('role', 20)->default('mahasiswa');
+            $table->timestamp('email_verified_at')->nullable();
+            $table->string('password');
+>>>>>>> 9bd941d (Commit Setup CeLOE LMS)
             $table->rememberToken();
             $table->timestamps();
         });
@@ -38,9 +47,12 @@ return new class extends Migration
         });
     }
 
+<<<<<<< HEAD
     /**
      * Reverse the migrations.
      */
+=======
+>>>>>>> 9bd941d (Commit Setup CeLOE LMS)
     public function down(): void
     {
         Schema::dropIfExists('users');

@@ -4,7 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "content-hash": "53b5d56b3b7e3cbac1713e68c8850f6c",
+=======
+    "content-hash": "d8f67b824a1bf31c8999ead558d9b485",
+>>>>>>> 9bd941d (Commit Setup CeLOE LMS)
     "packages": [
         {
             "name": "brick/math",
@@ -382,6 +386,7 @@
         },
         {
             "name": "dragonmantank/cron-expression",
+<<<<<<< HEAD
             "version": "v3.6.1",
             "source": {
                 "type": "git",
@@ -392,6 +397,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/dragonmantank/cron-expression/zipball/4189372ffeff09bf14f731f67a9de90c7b413ebe",
                 "reference": "4189372ffeff09bf14f731f67a9de90c7b413ebe",
+=======
+            "version": "v3.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dragonmantank/cron-expression.git",
+                "reference": "d61a8a9604ec1f8c3d150d09db6ce98b32675013"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dragonmantank/cron-expression/zipball/d61a8a9604ec1f8c3d150d09db6ce98b32675013",
+                "reference": "d61a8a9604ec1f8c3d150d09db6ce98b32675013",
+>>>>>>> 9bd941d (Commit Setup CeLOE LMS)
                 "shasum": ""
             },
             "require": {
@@ -402,8 +419,13 @@
             },
             "require-dev": {
                 "phpstan/extension-installer": "^1.4.3",
+<<<<<<< HEAD
                 "phpstan/phpstan": "^2.1.31",
                 "phpunit/phpunit": "^11.5.43 || ^12.4"
+=======
+                "phpstan/phpstan": "^1.12.32|^2.1.31",
+                "phpunit/phpunit": "^8.5.48|^9.0"
+>>>>>>> 9bd941d (Commit Setup CeLOE LMS)
             },
             "type": "library",
             "extra": {
@@ -434,7 +456,11 @@
             ],
             "support": {
                 "issues": "https://github.com/dragonmantank/cron-expression/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/dragonmantank/cron-expression/tree/v3.6.1"
+=======
+                "source": "https://github.com/dragonmantank/cron-expression/tree/v3.6.0"
+>>>>>>> 9bd941d (Commit Setup CeLOE LMS)
             },
             "funding": [
                 {
@@ -442,7 +468,11 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
             "time": "2026-10-19T17:53:57+00:00"
+=======
+            "time": "2025-10-31T18:51:33+00:00"
+>>>>>>> 9bd941d (Commit Setup CeLOE LMS)
         },
         {
             "name": "egulias/email-validator",
@@ -646,6 +676,7 @@
         },
         {
             "name": "guzzlehttp/guzzle",
+<<<<<<< HEAD
             "version": "7.16.0",
             "source": {
                 "type": "git",
@@ -656,12 +687,29 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/guzzle/guzzle/zipball/ffb62ec787050ae4fa9449cdd6b80335db69bda2",
                 "reference": "ffb62ec787050ae4fa9449cdd6b80335db69bda2",
+=======
+            "version": "7.15.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/guzzle.git",
+                "reference": "ee80339fd9177ba44c49cdb653ff02a4d1106b9a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/ee80339fd9177ba44c49cdb653ff02a4d1106b9a",
+                "reference": "ee80339fd9177ba44c49cdb653ff02a4d1106b9a",
+>>>>>>> 9bd941d (Commit Setup CeLOE LMS)
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
+<<<<<<< HEAD
                 "guzzlehttp/promises": "^2.6",
                 "guzzlehttp/psr7": "^2.13.2",
+=======
+                "guzzlehttp/promises": "^2.5.3",
+                "guzzlehttp/psr7": "^2.13.1",
+>>>>>>> 9bd941d (Commit Setup CeLOE LMS)
                 "php": "^7.2.5 || ^8.0",
                 "psr/http-client": "^1.0",
                 "symfony/deprecation-contracts": "^2.5 || ^3.0",
@@ -754,7 +802,11 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/guzzle/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/guzzle/guzzle/tree/7.16.0"
+=======
+                "source": "https://github.com/guzzle/guzzle/tree/7.15.5"
+>>>>>>> 9bd941d (Commit Setup CeLOE LMS)
             },
             "funding": [
                 {
@@ -770,6 +822,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2026-10-18T13:38:36+00:00"
         },
         {
@@ -784,6 +837,22 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/guzzle/promises/zipball/3d88c829bd5f13d13847b39067dbf09a60af2154",
                 "reference": "3d88c829bd5f13d13847b39067dbf09a60af2154",
+=======
+            "time": "2026-08-24T09:21:06+00:00"
+        },
+        {
+            "name": "guzzlehttp/promises",
+            "version": "2.5.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/promises.git",
+                "reference": "cde49999552d185d64715fe9c1f77a2aadd2f9f1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/cde49999552d185d64715fe9c1f77a2aadd2f9f1",
+                "reference": "cde49999552d185d64715fe9c1f77a2aadd2f9f1",
+>>>>>>> 9bd941d (Commit Setup CeLOE LMS)
                 "shasum": ""
             },
             "require": {
@@ -838,7 +907,11 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/promises/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/guzzle/promises/tree/2.6.0"
+=======
+                "source": "https://github.com/guzzle/promises/tree/2.5.3"
+>>>>>>> 9bd941d (Commit Setup CeLOE LMS)
             },
             "funding": [
                 {
@@ -854,7 +927,11 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2026-10-18T12:46:59+00:00"
+=======
+            "time": "2026-08-24T09:11:28+00:00"
+>>>>>>> 9bd941d (Commit Setup CeLOE LMS)
         },
         {
             "name": "guzzlehttp/psr7",
@@ -1063,6 +1140,7 @@
         },
         {
             "name": "laravel/framework",
+<<<<<<< HEAD
             "version": "v12.70.1",
             "source": {
                 "type": "git",
@@ -1073,6 +1151,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/framework/zipball/e09fc54263d1a56cfe1709958fcbb22a4159b1e3",
                 "reference": "e09fc54263d1a56cfe1709958fcbb22a4159b1e3",
+=======
+            "version": "v12.70.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/framework.git",
+                "reference": "4a4554f4d81f4095c8ff1911ec8a58144b0ed71b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/4a4554f4d81f4095c8ff1911ec8a58144b0ed71b",
+                "reference": "4a4554f4d81f4095c8ff1911ec8a58144b0ed71b",
+>>>>>>> 9bd941d (Commit Setup CeLOE LMS)
                 "shasum": ""
             },
             "require": {
@@ -1281,7 +1371,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
+<<<<<<< HEAD
             "time": "2026-10-21T12:55:36+00:00"
+=======
+            "time": "2026-10-13T13:24:10+00:00"
+>>>>>>> 9bd941d (Commit Setup CeLOE LMS)
         },
         {
             "name": "laravel/prompts",
@@ -2135,6 +2229,7 @@
         },
         {
             "name": "nesbot/carbon",
+<<<<<<< HEAD
             "version": "3.15.0",
             "source": {
                 "type": "git",
@@ -2145,6 +2240,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/CarbonPHP/carbon/zipball/217d38553209bdb44e01590d9e9a2e4df8354cce",
                 "reference": "217d38553209bdb44e01590d9e9a2e4df8354cce",
+=======
+            "version": "3.14.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CarbonPHP/carbon.git",
+                "reference": "94cfc34887f07ab5c0efa07914c8f527544e3224"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CarbonPHP/carbon/zipball/94cfc34887f07ab5c0efa07914c8f527544e3224",
+                "reference": "94cfc34887f07ab5c0efa07914c8f527544e3224",
+>>>>>>> 9bd941d (Commit Setup CeLOE LMS)
                 "shasum": ""
             },
             "require": {
@@ -2154,7 +2261,10 @@
                 "psr/clock": "^1.0",
                 "symfony/clock": "^6.3.12 || ^7.0 || ^8.0",
                 "symfony/polyfill-mbstring": "^1.0",
+<<<<<<< HEAD
                 "symfony/polyfill-time": "^1.0",
+=======
+>>>>>>> 9bd941d (Commit Setup CeLOE LMS)
                 "symfony/translation": "^4.4.18 || ^5.2.1 || ^6.0 || ^7.0 || ^8.0"
             },
             "provide": {
@@ -2237,6 +2347,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2026-10-18T18:27:53+00:00"
         },
         {
@@ -2251,10 +2362,27 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/nette/schema/zipball/af9fa8a86bfca9b02b10346220db26e62ef942ec",
                 "reference": "af9fa8a86bfca9b02b10346220db26e62ef942ec",
+=======
+            "time": "2026-10-02T07:26:52+00:00"
+        },
+        {
+            "name": "nette/schema",
+            "version": "v1.3.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nette/schema.git",
+                "reference": "c54350438cd6914616f790a49cb424605f421562"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nette/schema/zipball/c54350438cd6914616f790a49cb424605f421562",
+                "reference": "c54350438cd6914616f790a49cb424605f421562",
+>>>>>>> 9bd941d (Commit Setup CeLOE LMS)
                 "shasum": ""
             },
             "require": {
                 "nette/utils": "^4.0",
+<<<<<<< HEAD
                 "php": "8.1 - 8.6"
             },
             "require-dev": {
@@ -2262,12 +2390,25 @@
                 "nette/tester": "^2.6",
                 "phpstan/extension-installer": "^1.4@stable",
                 "phpstan/phpstan": "^2.3@stable",
+=======
+                "php": "8.1 - 8.5"
+            },
+            "require-dev": {
+                "nette/phpstan-rules": "^1.0",
+                "nette/tester": "^2.6",
+                "phpstan/extension-installer": "^1.4@stable",
+                "phpstan/phpstan": "^2.1.39@stable",
+>>>>>>> 9bd941d (Commit Setup CeLOE LMS)
                 "tracy/tracy": "^2.8"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-master": "1.4-dev"
+=======
+                    "dev-master": "1.3-dev"
+>>>>>>> 9bd941d (Commit Setup CeLOE LMS)
                 }
             },
             "autoload": {
@@ -2288,6 +2429,7 @@
                 {
                     "name": "David Grudl",
                     "homepage": "https://davidgrudl.com"
+<<<<<<< HEAD
                 }
             ],
             "description": "📐 Nette Schema: validates and normalizes data such as configuration or API input against a schema described in a few readable lines of PHP, with precise error messages.",
@@ -2322,6 +2464,42 @@
             },
             "require": {
                 "php": "8.2 - 8.6"
+=======
+                },
+                {
+                    "name": "Nette Community",
+                    "homepage": "https://nette.org/contributors"
+                }
+            ],
+            "description": "📐 Nette Schema: validating data structures against a given Schema.",
+            "homepage": "https://nette.org",
+            "keywords": [
+                "config",
+                "nette"
+            ],
+            "support": {
+                "issues": "https://github.com/nette/schema/issues",
+                "source": "https://github.com/nette/schema/tree/v1.3.6"
+            },
+            "time": "2026-08-16T21:58:41+00:00"
+        },
+        {
+            "name": "nette/utils",
+            "version": "v4.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nette/utils.git",
+                "reference": "b043439dbdf954e6c28b5ea7e34b0100f83165e0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nette/utils/zipball/b043439dbdf954e6c28b5ea7e34b0100f83165e0",
+                "reference": "b043439dbdf954e6c28b5ea7e34b0100f83165e0",
+                "shasum": ""
+            },
+            "require": {
+                "php": "8.2 - 8.5"
+>>>>>>> 9bd941d (Commit Setup CeLOE LMS)
             },
             "conflict": {
                 "nette/finder": "<3",
@@ -2393,9 +2571,15 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/utils/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/nette/utils/tree/v4.1.6"
             },
             "time": "2026-10-20T17:07:56+00:00"
+=======
+                "source": "https://github.com/nette/utils/tree/v4.1.5"
+            },
+            "time": "2026-07-17T23:02:45+00:00"
+>>>>>>> 9bd941d (Commit Setup CeLOE LMS)
         },
         {
             "name": "nikic/php-parser",
@@ -5057,6 +5241,7 @@
             "time": "2026-09-25T15:46:47+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "symfony/polyfill-time",
             "version": "v1.42.0",
             "source": {
@@ -5140,6 +5325,8 @@
             "time": "2026-08-07T13:08:13+00:00"
         },
         {
+=======
+>>>>>>> 9bd941d (Commit Setup CeLOE LMS)
             "name": "symfony/polyfill-uuid",
             "version": "v1.43.0",
             "source": {
@@ -6177,6 +6364,7 @@
         },
         {
             "name": "filp/whoops",
+<<<<<<< HEAD
             "version": "2.18.7",
             "source": {
                 "type": "git",
@@ -6187,6 +6375,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/filp/whoops/zipball/50670ba239926c50f2073e868f6672f775cd57ec",
                 "reference": "50670ba239926c50f2073e868f6672f775cd57ec",
+=======
+            "version": "2.18.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/filp/whoops.git",
+                "reference": "7d0a2cde892089bb09372f4366e9b960eb3001a9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/7d0a2cde892089bb09372f4366e9b960eb3001a9",
+                "reference": "7d0a2cde892089bb09372f4366e9b960eb3001a9",
+>>>>>>> 9bd941d (Commit Setup CeLOE LMS)
                 "shasum": ""
             },
             "require": {
@@ -6236,7 +6436,11 @@
             ],
             "support": {
                 "issues": "https://github.com/filp/whoops/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/filp/whoops/tree/2.18.7"
+=======
+                "source": "https://github.com/filp/whoops/tree/2.18.6"
+>>>>>>> 9bd941d (Commit Setup CeLOE LMS)
             },
             "funding": [
                 {
@@ -6244,7 +6448,11 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
             "time": "2026-10-18T13:17:38+00:00"
+=======
+            "time": "2026-10-03T17:03:57+00:00"
+>>>>>>> 9bd941d (Commit Setup CeLOE LMS)
         },
         {
             "name": "hamcrest/hamcrest-php",
@@ -8477,7 +8685,11 @@
         }
     ],
     "aliases": [],
+<<<<<<< HEAD
     "minimum-stability": "stable",
+=======
+    "minimum-stability": "dev",
+>>>>>>> 9bd941d (Commit Setup CeLOE LMS)
     "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
